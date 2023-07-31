@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*Logo*/
+  
+  /*Fondo de color*/
+  header{
+    background-color: rgb(255, 88, 11);
+  }
+
+  .loga{
+    position: relative;
+    left: 600px;
+  }
+
+/*Elemental*/
+* {
+  margin: 0;
+  padding:0;
+}
+
+body {
+  background-color: black;
+  color: antiquewhite;
+  font-family: 'Bebas Neue', sans-serif;
+
+}
+
+
+/*Barra de menu*/
+/*Color de fondo*/
+nav {
+  background-color: rgb(17, 17, 17);
+  height: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+}
+
+/*Ubicaciòn central de los botones*/
+.ubicaciòn {
+  position: relative;
+  left: 400px;
+}
+
+/*.................................................................*/
+/*Boton de inicio*/
+.inicio {
+  /*Ubicaciòn*/
+  position: relative;
+  right: 200px;
+  top: 20px;
+}
+
+.inicio {
+  /*Caja*/
+  background-color: rgb(255, 0, 0);
+  border: solid 10px red;
+  width: 100px;
+  border-radius: 900px;
+}
+
+
+.inicio {
+  /*centro de texto*/
+  text-align: center;
+}
+
+/*Funcion de sacar las linea de acher*/
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+/*transform-scale*/
+.inicio:hover {
+  transform: scale(1.5);
+  transform-origin: center center;
+}
+
+/*.................................................................*/
+/*Boton de opciones*/
+.opciones {
+  /*Ubicaciòn*/
+  position: relative;
+  bottom: 22px;
+}
+
+.opciones {
+  /*Caja*/
+  background-color: red;
+  border: solid 10px red;
+  width: 100px;
+  border-radius: 900px;
+}
+
+
+.opciones {
+  /*centro de texto*/
+  text-align: center;
+}
+
+/*Funcion de sacar las linea de acher*/
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+/*transform-scale*/
+.opciones:hover {
+  transform: scale(1.5);
+  transform-origin: center center;
+}
+
+
+/*.................................................................*/
+/*Boton de registrar*/
+.registrar {
+  /*Ubicaciòn*/
+  position: relative;
+  bottom: 62px;
+  left: 200px;
+}
+
+.registrar {
+  /*Caja*/
+  background-color: red;
+  border: solid 10px red;
+  width: 100px;
+  border-radius: 900px;
+}
+
+
+.registrar {
+  /*centro de texto*/
+  text-align: center;
+}
+
+/*Funcion de sacar las linea de acher*/
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+/*transform-scale*/
+.registrar:hover {
+  transform: scale(1.5);
+  transform-origin: center center;
+}
+
+/*.................................................................*/
+
+.nosotros {
+  /*Ubicaciòn*/
+  position: relative;
+  left: 400px;
+  bottom: 104px;
+}
+
+.nosotros {
+  /*Caja*/
+  background-color: red;
+  border: solid 10px red;
+  width: 100px;
+  border-radius: 900px;
+}
+
+
+.nosotros {
+  /*centro de texto*/
+  text-align: center;
+}
+
+/*Funcion de sacar las linea de acher*/
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+/*transform-scale*/
+.nosotros:hover {
+  transform: scale(1.5);
+  transform-origin: center center;
+}
+
+/*.................................................................*/
+/*Boton de usuario*/
+.usuario {
+  /*Ubicaciòn*/
+  position: relative;
+  bottom: 122px;
+  left: 600px;
+  bottom: 145px;
+}
+
+.usuario {
+  /*Caja*/
+  background-color: red;
+  border: solid 10px red;
+  width: 100px;
+  border-radius: 900px;
+}
+
+
+.usuario {
+  /*centro del texto*/
+  text-align: center;
+}
+
+/*Funcion de sacar las linea de acher*/
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+/*transform-scale*/
+.usuario:hover {
+  transform: scale(1.5);
+  transform-origin: center center;
+}
+/*...................................................................................................................*/
+/* Pie de pagina*/
+footer{
+  background-color: rgb(255, 88, 11);
+  height: 400px; /* <=largo*/
+  width: 1000px;    /* <=ancho*/
+  position: relative;
+   top: 40px;      /* <=abajo*/
+  left: 110px;
+}
+/* texto del autor*/
+.autor{
+  position: relative;
+  /*Arriba*/
+  bottom: 0px;
+  /*Abajo*/
+  top:30px ;
+  /*Derecha*/
+  left: 100px;
+  /*Izquierda*/
+  right: ;
+/*Tamaño de letra*/
+  font-size: 20px;
+}
+
+/* texto de la empresa*/
+.empresa{
+  position: relative;
+  /*Arriba*/
+  bottom:200px;
+  /*Abajo*/
+  top: ;
+  /*Derecha*/
+  left: 420px;
+  /*Izquierda*/
+  right: ;
+/*Tamaño de letra*/
+  font-size: 20px;
+}
+
+/*imagen del logo*/
+.logo{
+  position: relative;
+   left: 670px;
+   bottom: 200px; 
+}
+
+
+/*...................................................................................................................*/
+/*Información de Peliculas*/
+
+
+/* imagen*/
+aside{
+   background-color:  rgba(36, 17, 73, 0.322);
+         /* ancho*/
+   width: 400px;
+         /*largo*/
+   height: 900px;
+        /* posición*/
+   position: relative;
+            top: 80px; /* ancho*/
+            left: 40px;/* largo*/
+   padding: 20px;    
+   /*border del radio*/    
+   border-radius: 20px;   
+  }
+
+/*sección de la caja de la pelicula*/
+ 
+/*Boton de comprar*/
+/*Caja  de compra*/
+.comprar{
+  background-color: red;
+  border: solid 10px red;
+  width: 100px;
+  border-radius: 900px;}
+
+  /*transform-scale*/
+.comprar:hover {
+  transform: scale(1.5);
+  transform-origin: center center;
+}
+/*Boton de comprar*/
+/*Caja de lista*/
+.lista{
+  
+  background-color: red;
+  border: solid 10px red;
+  width: 200px;
+  border-radius: 900px;
+  font-size: 30px;
+}
+/*transform-scale*/
+.lista:hover {
+  transform: scale(1.5);
+  transform-origin: center center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  /* fondo de texto.........................................................................................*/
+  section{
+   background-color: rgba(36, 17, 73, 0.322);
+      /* posición*/
+   width: 500px;   /*<=Ancho*/
+   height: 900px;  /* <=largo*/
+      /* direcciòn*/
+   position: relative;
+    bottom:1020px ;  /*<=arriba*/  
+    left: 480px ;    /*<=izquierda*/  
+    /*border del radio*/  
+    border-radius: 20px;   
+  }
+  section{
+    padding-left: 0px;
+    margin-right: 5000px ;
+  }
+
+    /*texto*/
+  article{
+   width: 450px;   /*<=Ancho*/
+ 
+   height: 0px;  /* <=largo*/
+  
+   position: relative;
+    top:20px ;  /*<=arriba*/  
+    left: 40px ;    /*<=izquierda*/  
+   
+    padding: 4000;
+  
+}
+
+
+ 
+
+.fondo{
+  /*background-color: rgba(29, 29, 54, 0.849);*/
+
+          /* ancho*/
+         
+          /*largo*/
+    height: 1100px;
+   background-image: url(https://i.pinimg.com/originals/3f/59/94/3f59948b4acfbf9e85e27a3e482bc16f.jpg);
+  }
